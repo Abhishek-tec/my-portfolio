@@ -1,0 +1,39 @@
+.services h5,
+h2 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.services-card {
+  border: 1px solid rgba(4, 39, 109, 0.772); ;
+  background: rgba(3, 29, 82, 0.772);
+  border-radius: 2rem;
+  gap: 2rem;
+}
+
+.services-card ul li {
+  list-style: none;
+}
+
+.service-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1.4rem 5rem;
+}
+.service-title img {
+  width: 3rem;
+  position: relative;
+  top: 0.08rem;
+  left: 10rem;
+}
+.service-container h3 {
+  margin-left: 6rem;
+  color: burlywood;
+}
+.service-container h3:hover {
+  color: white;
+}
+.services-card:hover {
+  background: transparent;
+  cursor: default;
+}

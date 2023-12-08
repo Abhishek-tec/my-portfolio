@@ -1,0 +1,62 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+.HeaderSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 0;
+}
+.HeaderSection > div {
+  width: 30vw;
+  margin: 2rem 0;
+  color: purple;
+}
+.leftSection {
+  font-size: 2rem;
+}
+.rightSection img {
+  width: 30vw;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border: transparent;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  gap: 1.2rem;
+ 
+}
+.buttons a{
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  color: white;
+  background: rgb(164, 98, 226);
+}
+.buttons a:hover{
+  background: transparent;
+  cursor: default;
+}
+@media screen and (max-width: 1024px) {
+  header{
+    height: 65vh;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  header{
+    height: 100vh;
+  }
+
+  .header__socials,.scroll__down{
+    display: none;
+  }
+}

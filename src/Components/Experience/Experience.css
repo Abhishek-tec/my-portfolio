@@ -1,0 +1,44 @@
+.exp_Section {
+  max-width: 20rem;
+  height: 30rem;
+  margin: 0 11rem;
+}
+hr {
+  border: 0;
+  background-color: rgb(8, 22, 85);
+  height: 0.1rem;
+  margin: 1rem 6rem;
+}
+.exp_Section h5,h2 {
+  color: blueviolet;
+}
+.box {
+  background: white;
+  width: 80vw;
+  height: 0.1vh;
+  margin: 4rem 2rem;
+  display: flex;
+}
+.exp_Section .vertical-line {
+  height: 5vh;
+  width: 0.1vw;
+  background-color: white;
+  margin: 0 6rem;
+}
+.image-top {
+  width: 3rem;
+  position: relative;
+  top: -3rem;
+  left: -2rem;
+}
+.vertical-text {
+  position: relative;
+  top: -2rem;
+  width: 2rem;
+  left: -2rem;
+}
+.vertical-text p {
+  width: 10rem;
+  color: gray;
+  font-size: 10px;
+}
