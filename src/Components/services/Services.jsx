@@ -19,34 +19,7 @@ const Services = () => {
 
           <ul className="service-list">
             <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
+              <p>To build projects using HTML, CCS, JAVASCRIPTS and REACT.</p>
             </li>
           </ul>
         </article>
@@ -59,32 +32,9 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
+                Website looks and feels good. ... Using Design software. ...
+                HTML. ... CSS. ... JavaScript. ... Web Accessibility. ... Time
+                management skills.
               </p>
             </li>
           </ul>
@@ -98,32 +48,8 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
-              </p>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quis natus autem!
+                I can create figma design to code Convert your prototypes into
+                developer-friendly HTML and CSS code, or directly into React.
               </p>
             </li>
           </ul>

@@ -1,23 +1,15 @@
 .contact {
-  margin-top: 12rem;
-  width: 100%;
+  margin-top: 10rem;
+  width: 65%;
   display: flex;
-  grid-template-columns: 30% 60%;
-  gap: 12%;
+  grid-template-columns: 30% 40%;
+  gap: 15%;
 }
 
 .contact-container {
-  width: 10rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+  margin: 0 auto;
 }
 
-from {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
 input,
 textarea {
   width: 100%;
@@ -34,4 +26,20 @@ button {
   border-radius: 0.4rem;
   text-align: right;
   background: rgb(167, 89, 239);
+}
+
+.contact button:hover {
+  background: white;
+}
+@media screen and (max-width: 1024px) {
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    width: 80vw;
+  }
 }

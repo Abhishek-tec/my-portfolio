@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 100%;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 4rem 0;
+  margin: auto 3rem;
 }
 .HeaderSection > div {
   width: 30vw;

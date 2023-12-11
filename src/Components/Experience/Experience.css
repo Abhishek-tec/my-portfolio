@@ -1,18 +1,21 @@
 .exp_Section {
-  max-width: 20rem;
+  max-width: 50%;
   height: 30rem;
-  margin: 0 11rem;
+  margin: 2rem 11rem;
 }
 hr {
   border: 0;
   background-color: rgb(8, 22, 85);
   height: 0.1rem;
-  margin: 1rem 6rem;
+  margin: 2rem auto;
 }
-.exp_Section h5,h2 {
+Section h5 h2 {
   color: blueviolet;
 }
-.box {
+section h2 {
+  margin-bottom: 7rem;
+}
+.experience-container {
   background: white;
   width: 80vw;
   height: 0.1vh;
@@ -31,6 +34,7 @@ hr {
   top: -3rem;
   left: -2rem;
 }
+
 .vertical-text {
   position: relative;
   top: -2rem;
@@ -40,5 +44,18 @@ hr {
 .vertical-text p {
   width: 10rem;
   color: gray;
-  font-size: 10px;
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .exp_Section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .exp_Section div {
+    width: 50%;
+    /* gap: 1rem; */
+  }
 }

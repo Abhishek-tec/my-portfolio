@@ -19,7 +19,7 @@ const Contact = () => {
     <section className="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-      <div className="contact-conainer">
+      <div className="contact-container">
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
