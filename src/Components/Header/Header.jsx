@@ -14,7 +14,7 @@ const Header = () => {
             <a href={CV} download className="btn">
               Downlode CV
             </a>
-            <a href="#contact" className="btn">
+            <a href="#contact me" className="btn">
               Connect me
             </a>
           </button>

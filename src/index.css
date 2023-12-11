@@ -4,4 +4,5 @@ body{
     background: rgb(2, 2, 41);
     color: white;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
