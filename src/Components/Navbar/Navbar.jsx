@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
-import { useState } from "react";
 
 const Navbar = () => {
-  const [activeNav, setactiveNav] = useState("#");
+  const [activeNavbar, setActiveNavbar] = useState("#");
+
+  const handleSetActive = (sectionId) => {
+    setActiveNavbar(sectionId);
+  };
 
   return (
     <nav>
@@ -15,8 +18,8 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              onClick={() => setactiveNav("#")}
-              className={activeNav === "#" ? "active" : ""}
+              onClick={() => handleSetActive("#")}
+              className={activeNavbar === "#" ? "active" : ""}
             >
               Home
             </a>
@@ -24,8 +27,8 @@ const Navbar = () => {
           <li>
             <a
               href="#about"
-              onClick={() => setactiveNav("#about")}
-              className={activeNav === "#about" ? "active" : ""}
+              onClick={() => handleSetActive("#about")}
+              className={activeNavbar === "#about" ? "active" : ""}
             >
               About
             </a>
@@ -33,8 +36,8 @@ const Navbar = () => {
           <li>
             <a
               href="#experience"
-              onClick={() => setactiveNav("#experience")}
-              className={activeNav === "#experience" ? "active" : ""}
+              onClick={() => handleSetActive("#experience")}
+              className={activeNavbar === "#experience" ? "active" : ""}
             >
               Experience
             </a>
@@ -42,17 +45,17 @@ const Navbar = () => {
           <li>
             <a
               href="#services"
-              onClick={() => setactiveNav("#services")}
-              className={activeNav === "#services" ? "active" : ""}
+              onClick={() => handleSetActive("#services")}
+              className={activeNavbar === "#services" ? "active" : ""}
             >
               Services
             </a>
           </li>
           <li>
             <a
-              href="#contact me"
-              onClick={() => setactiveNav("#contact me")}
-              className={activeNav === "#contact me" ? "active" : ""}
+              href="#contact"
+              onClick={() => handleSetActive("#contact")}
+              className={activeNavbar === "#contact" ? "active" : ""}
             >
               Contact Me
             </a>
@@ -62,4 +65,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;

@@ -1,61 +1,69 @@
 .exp_Section {
-  max-width: 50%;
-  height: 30rem;
-  margin: 2rem 11rem;
+  text-align: center;
+  padding: 40px 10px;
 }
-hr {
-  border: 0;
-  background-color: rgb(8, 22, 85);
-  height: 0.1rem;
-  margin: 2rem auto;
+
+.exp_Section h5 {
+  margin-bottom: 10px;
 }
-Section h5 h2 {
-  color: blueviolet;
+
+.exp_Section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8rem;
 }
-section h2 {
-  margin-bottom: 7rem;
-}
+
 .experience-container {
-  background: white;
-  width: 80vw;
-  height: 0.1vh;
-  margin: 4rem 2rem;
-  display: flex;
+  display: grid;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.exp_Section .vertical-line {
-  height: 5vh;
-  width: 0.1vw;
-  background-color: white;
-  margin: 0 6rem;
-}
-.image-top {
-  width: 3rem;
+
+.vertical-line {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 40px;
   position: relative;
-  top: -3rem;
-  left: -2rem;
+}
+
+.vertical-line:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.image-top {
+  width: 10%;
+  height: auto;
 }
 
 .vertical-text {
-  position: relative;
-  top: -2rem;
-  width: 2rem;
-  left: -2rem;
+  position: absolute;
+  bottom: -3rem;
+  left: 20px;
+  text-align: left;
+  background: blueviolet;
+  border: 1px solid lightskyblue;
+  border-radius: 0.8rem;
+  padding: 20px;
 }
-.vertical-text p {
-  width: 10rem;
-  color: gray;
-  font-size: 0.6rem;
+.vertical-text:hover {
+  background: transparent;
 }
 
-@media screen and (max-width: 1024px) {
-  .exp_Section {
-    grid-template-columns: 1fr;
+/* Media Queries for responsiveness */
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  .vertical-line {
+    flex-basis: 100%;
+    margin-right: 0;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .exp_Section div {
-    width: 50%;
-    /* gap: 1rem; */
+  .vertical-line:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .vertical-text {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
   }
 }

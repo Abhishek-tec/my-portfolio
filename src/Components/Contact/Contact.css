@@ -1,45 +1,55 @@
 .contact {
-  margin-top: 10rem;
-  width: 65%;
-  display: flex;
-  grid-template-columns: 30% 40%;
-  gap: 15%;
+  padding: 50px;
+  text-align: center;
 }
 
-.contact-container {
+.contact h5 {
+  margin-bottom: 1rem;
+}
+
+.contact h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
   margin: 0 auto;
 }
 
-input,
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #007bff;
+  border-radius: 0.7rem;
+  box-sizing: border-box;
+}
+.msg {
+  padding: 4rem;
+}
+form > button {
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid lightblue;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+button:hover {
   background: transparent;
-  border: 2px solid blueviolet;
-  resize: none;
-  color: white;
-}
-button {
-  font-size: 0.8rem;
-  padding: 0.8rem;
-  border-radius: 0.4rem;
-  text-align: right;
-  background: rgb(167, 89, 239);
 }
 
-.contact button:hover {
-  background: white;
-}
-@media screen and (max-width: 1024px) {
-  .contact {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .contact {
-    width: 80vw;
+@media screen and (max-width: 768px) {
+  form {
+    max-width: 80%;
   }
 }

@@ -24,15 +24,15 @@ header {
 .buttons {
   margin-top: 1.5rem;
   display: flex;
+
   justify-content: center;
   border: transparent;
   background: transparent;
   color: white;
   font-size: 1.2rem;
   gap: 1.2rem;
- 
 }
-.buttons a{
+.buttons a {
   text-decoration: none;
   padding: 1rem;
   border: 1px solid blue;
@@ -40,23 +40,23 @@ header {
   color: white;
   background: rgb(164, 98, 226);
 }
-.buttons a:hover{
+.buttons a:hover {
   background: transparent;
-  cursor: default;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
-  header{
+  header {
     height: 65vh;
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  header{
+  header {
     height: 100vh;
   }
 
-  .header__socials,.scroll__down{
+  .header__socials,
+  .scroll__down {
     display: none;
   }
 }
