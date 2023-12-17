@@ -48,9 +48,6 @@
   background: transparent;
 }
 
-/* Media Queries for responsiveness */
-
-/* For smaller screens */
 @media screen and (max-width: 768px) {
   .vertical-line {
     flex-basis: 100%;
