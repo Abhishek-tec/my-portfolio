@@ -21,7 +21,11 @@ const Experience = () => {
             <div className="vertical-text">
               <h3>HTML DEVELOPER</h3>
               <p>
+<<<<<<< HEAD
                 HTML5 - Editor, Basics, Attributes, Paragraph, Formatting,
+=======
+                HTML5 - Editor, Basics, Attributes, Paragraph, Formatting
+>>>>>>> 813afde86ee6862e56c2a782719db64b9dc761a3
                 Lists, Tables.
               </p>
             </div>
