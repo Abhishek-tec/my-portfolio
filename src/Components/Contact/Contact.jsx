@@ -15,15 +15,6 @@ const Contact = () => {
         form.current,
         "Y9gxYcnRpYwN213pn"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
   };
   return (
     <section className="contact">
